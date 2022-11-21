@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Neue Haas Unica Pro';
+    src: url(',,/fonts/NeueHaasUnicaPro-Regular.woff2') format('woff2'),
+        url(',,/fonts/NeueHaasUnicaPro-Regular.woff') format('woff'),
+        url(',,/fonts/NeueHaasUnicaPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --rojo: #CE1818;
+    --rosa: #FD9E9E;
+}
+body{
+    font-size: 20px;
+}
+header, nav, main, footer{
+    padding: 0 15vw;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rojo);
+    height: 8vh;
+    font-family: 'Neue Haas Unica Pro';
+    color: white;
+    font-size: 0.8em;
+    
+}
+    /*NAV*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--rosa);
+    height: 17vh;
+    font-family: 'Alex Brush';
+}
+nav a{
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Alex Brush';
+}
+nav img{
+    width: 182.45px;
+    height: 189.08px;
+}
+    /*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--rosa);
+    height:
+    58vh;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--rojo);
+    height: 17vh;
+    font-family: 'Neue Haas Unica Pro';
+    font-size: 0.8em;
+}
+
+        
+  
